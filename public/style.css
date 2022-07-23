@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Gantari:wght@400;500;600;700&family=Inconsolata&family=Signika+Negative:wght@500;600&display=swap');
+
+body {
+    background: #fff5ee;
+    height: 100vh;
+}
+
+.sehatqa {
+    background-color: #fff;
+}
+
+.sehatqa h1 {
+    font-family: 'Gantari', sans-serif !important;
+    font-weight: 700;
+}
+
+.sehatqa card {
+    border-color: #fff5ee !important;
+}
+
+.sehatqa-form {
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.sehatqa-form h1 {
+    font-family: 'Gantari', sans-serif !important;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.sehatqa-form a {
+    font-family: 'Inconsolata' !important;
+    font-weight: 500;
+    font-size: 0.75rem;
+    text-align: center;
+}
+
+.sehatqa-form textarea {
+    padding: 10px;
+    width: 100%;
+    font-size: 17px;
+    font-family: 'Inconsolata' !important;
+    font-weight: 500;
+    border: 1px solid #e3e3e3;
+    border-radius: 10px;
+    -webkit-appearance: none;
+}
+
+.btn-sehatqa {
+    font-family: 'Gantari', sans-serif !important;
+    font-weight: 500;
+    --bs-btn-color: #fff5ee;
+    --bs-btn-bg: #465783;
+    --bs-btn-border-color: #6a7aa4;
+    --bs-btn-hover-color: #fff5ee;
+    --bs-btn-hover-bg: #6a7aa4;
+    --bs-btn-hover-border-color: #8e9ec9;
+    --bs-btn-focus-shadow-rgb: 142, 158, 201;
+    --bs-btn-active-color: #fff5ee;
+    --bs-btn-active-bg: #8e9ec9;
+    --bs-btn-active-border-color: #8e9ec9;
+    --bs-btn-active-shadow: inset 0 3px 5px rgb(142, 158, 201);
+    --bs-btn-disabled-color: #8e9ec9;
+    --bs-btn-disabled-bg: #f8f9fa;
+    --bs-btn-disabled-border-color: #8e9ec9;
+}
+
+.bg-sehatqa {
+    --bs-bg-opacity: 1;
+    background-color: #fff5ee !important;
+}
+
+.text-sehatqa {
+    font-family: 'Gantari', sans-serif !important;
+}
+
+.text-sehatqa-monospace {
+    font-family: 'Inconsolata' !important;
+    font-weight: 500;
+}
+
+.text-sm {
+    font-size: 0.8em;
+}

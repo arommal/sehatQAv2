@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('public', path='/style.css') }}">
+
+    <title>SehatQA</title>
+</head>
+<body>
+<div class="container py-4 h-100">
+    <div class="row d-flex justify-content-center align-items-center">
+        <div class="col-md-8 col-12">
+            <form method="post" action="{{ url_for('result') }}" class="sehatqa sehatqa-form">
+                <h1 class="text-center">🤳🏽 SehatQA</h1>
+                <p class="text-center">
+                    <a href="https://github.com/arommal/sehatQA">🗂 Github Repository</a>
+                </p>
+                <p class="text-sehatqa">
+                    SehatQA is a web-based medical answer recommendation system. It uses and is trained on Alodokter question-answer data from 2014-2020.
+                    <br><br>
+                    To use, enter your question below:
+                </p>
+                <div class="card">
+                    <div class="card-body text-sehatqa-monospace">
+                        <div class="text-sm">
+                            📌 Your question has to be related to one (or some) of these topics:
+                        </div>
+                        <div class="tags">
+                            <span class="badge rounded-pill text-dark bg-sehatqa">Menstruasi</span>
+                            <span class="badge rounded-pill text-dark bg-sehatqa">Kehamilan</span>
+                            <span class="badge rounded-pill text-dark bg-sehatqa">Obat</span>
+                            <span class="badge rounded-pill text-dark bg-sehatqa">Asam Lambung</span>
+                            <span class="badge rounded-pill text-dark bg-sehatqa">Bayi</span>
+                            <span class="badge rounded-pill text-dark bg-sehatqa">Sakit Kepala</span>
+                            <span class="badge rounded-pill text-dark bg-sehatqa">Benjolan</span>
+                            <span class="badge rounded-pill text-dark bg-sehatqa">Kulit</span>
+                            <span class="badge rounded-pill text-dark bg-sehatqa">Alergi</span>
+                            <span class="badge rounded-pill text-dark bg-sehatqa">Kontrasepsi</span>
+                        </div>
+                    </div>
+                </div>
+                <textarea name="question" class="mt-4" type="text" placeholder="Type your question here..."></textarea>
+                <div class="d-grid mx-auto">
+                    <button type="submit" class="btn btn-sehatqa mt-4">
+                        Get answer recommendations
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
