@@ -29,3 +29,7 @@ pip install scikit-learn==1.1.1
 pip install fastapi uvicorn jinja2 python-multipart
 ```
 5. **Download** the Pickle file for FastText Bahasa Indonesia Word Vectors [here](https://drive.google.com/file/d/1BgBLOYrrz3XHTmuA_rWGPmx4aB7viG9Y/view?usp=sharing). Put the file in your local project directory.
+6. **Run the web server locally** by running this in terminal
+```
+uvicorn main:app --reload
+```
