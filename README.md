@@ -15,16 +15,17 @@ Similarity between input question and each dataset question is evaluated using C
 The answers from each selected similar questions are summarized extractively and presented back to the user as recommended answers.
 
 ## Requirements
-1. Python 3.8.10, download [here](https://www.python.org/downloads/release/python-3810/)
-2. Install packages from requirements.txt
+1. **Download** Python 3.8.10 [here](https://www.python.org/downloads/release/python-3810/)
+2. **Install** packages from requirements.txt
 ```
 pip install -r requirements.txt
 ```
-3. Upgrade scikit-learn to v1.1.1
+3. **Upgrade** scikit-learn to v1.1.1
 ```
 pip install scikit-learn==1.1.1
 ```
-4. Install FastAPI, Uvicorn, Jinja2, and python-multipart to run system locally
+4. **Install** FastAPI, Uvicorn, Jinja2, and python-multipart to run system locally
 ```
 pip install fastapi uvicorn jinja2 python-multipart
 ```
+5. **Download** the Pickle file for FastText Bahasa Indonesia Word Vectors [here](https://drive.google.com/file/d/1BgBLOYrrz3XHTmuA_rWGPmx4aB7viG9Y/view?usp=sharing). Put the file in your local project directory.
