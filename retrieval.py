@@ -6,7 +6,6 @@ from scipy.spatial import distance
 
 from preprocessing import tokenize, embed_for_similarity
 from prediction import get_id_predictions
-from summarization import summarize
 
 def cosine_similarity(A, B):
     '''
